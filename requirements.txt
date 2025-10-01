@@ -1,0 +1,17 @@
+fastai==2.7.15
+# Match PyTorch family used above (CPU wheels will be selected by pip)
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# UI for image upload/testing
+gradio==4.44.0
+python-multipart==0.0.20
+
+# Imaging backend used by fastai/gradio
+pillow==10.4.0
+
+# Optional but helpful
+numpy>=1.23
+pandas>=1.5
+streamlit==1.38.0
